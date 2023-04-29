@@ -1,0 +1,45 @@
+.header{
+    display:flex;
+    padding: 20px;
+    width:160px;
+
+}
+h1{
+    background-color:#f5de50;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.form{
+    text-align: center;
+    margin-top: 60px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+input{
+   width:30vw;
+}
+.column1 .card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.imdbdly{
+    margin-top: 20px;
+}
+.card .card-text{
+    margin-left: 8px;
+}
+label{
+    font-weight: bold;
+}
+.container{
+    background-color: whitesmoke;
+    padding-bottom: 12px;
+}
+@media (max-width:500px){
+    .header{
+        padding: 10px;
+    }
+}
